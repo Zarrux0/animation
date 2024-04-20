@@ -1,0 +1,169 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+body{
+    /* min-height: 100vh; */
+    background:url(./R\ \(1\).jpg);
+    /* background-position: center; */
+    width: 1000px ;
+}
+.header{
+    /* position:fixed; */
+    top: 0;
+    left: 0 ;
+    width: 100%;
+    padding: 20px 100px  ;
+    /* background-color: seagreen; */
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 100 ; */
+}
+.LOGO{
+    position: relative;
+    top: 30px;
+    right: 20px ;
+    /* bottom: 35px ; */
+    margin-bottom: 35px ;
+    text-decoration: none;
+    font-size: 40px ;
+    color: white;
+    font-weight:bolder;
+}  
+.Navbar a{
+    position: relative;
+    left: 750px ;
+    bottom: 50px ;
+    text-decoration: none;
+    font-size: 25px ;
+    color: white;
+    margin-left: 20px;
+    font-weight: 100;
+}
+.Navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px ;
+    background: #fff;
+    transition: .3s;
+}
+.Navbar a:hover::before{
+    width: 100%;
+}
+
+.box1{
+    width: 65px  ;
+    height: 65px ;
+    border: 2px solid #fff;
+    position: relative;
+    left: 400px ;
+    top: 50px ;
+    animation-name: a ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    0%{
+
+    }
+    100%{
+        transform: rotate(180deg);
+        /* border: 2px solid rgba(255, 255, 255, 0); */
+    }
+}
+.box2{
+    width: 55px  ;
+    height: 55px ;
+    position: relative;
+    left: 405px ;
+    top: -10px ;
+    bottom: 0px ;
+    border: 2px solid rgb(255, 255, 0);
+    /* transform: rotate(10deg); */
+    animation-name: b;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes b{
+    0%{
+
+    }
+    100%{
+        transform: rotate(180deg);
+        /* border: 2px solid rgb(255, 255, 0, 0); */
+    }
+}
+.box3{
+    width: 45px  ;
+    height: 45px ;
+    position: relative;
+    left: 409px ;
+    top: -60px ;
+    bottom: 0px ;
+    border: 2px solid rgb(0, 8, 255);
+    /* transform: rotate(20deg); */
+    animation-name: c;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes c{
+    0%{}
+    100%{
+        transform: rotate(180deg);
+        /* border: 2px solid rgb(0, 8, 255, 0); */
+    }
+
+}
+.box4{
+    width: 35px  ;
+    height: 35px ;
+    position: relative;
+    left: 414.5px ;
+    top: -100px ;
+    bottom: 0px ;
+    border: 2px solid rgb(0, 247, 33);
+    /* transform: rotate(30deg); */
+    animation-name: d;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes d{
+    0%{}
+    100%{
+        transform: rotate(180deg);
+        /* border: 2px solid rgba(0, 247, 33, 0); */
+    }
+
+}
+.box5{
+    width: 25px  ;
+    height: 25px ;
+    position: relative;
+    left: 419.5px ;
+    top: -130px ;
+    bottom: 0px ;
+    border: 2px solid rgb(0, 0, 0);
+    /* transform: rotate(40deg); */
+    animation-name: t ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes t{
+    0%{}
+    100%{
+        transform: rotate(180deg);
+        /* border: 2px solid rgb(0, 0, 0, 0); */
+    }
+}
+.boxx{
+    margin-left: 200px ;
+    position: relative;
+    bottom: 135px ;
+    right: 400px ;
+}
+
+
